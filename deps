@@ -1,0 +1,22 @@
+./objects/wsseapi.o: ./wsseapi.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/soapClient.o: ./soapClient.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/stdsoap2.o: ./stdsoap2.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/smdevp.o: ./smdevp.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/dom.o: ./dom.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/mecevp.o: ./mecevp.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/main.o: ./main.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/duration.o: ./duration.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/wsaapi.o: ./wsaapi.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/soapC.o: ./soapC.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
+./objects/threads.o: ./threads.c
+	gcc -DDEBUG -DWITH_OPENSSL $(CFLAGS) -c -o $@ $^
